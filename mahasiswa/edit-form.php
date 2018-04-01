@@ -31,7 +31,6 @@ if($data->num_rows <= 0) {
 }
 ?>
 
-
 <table>
 	<tr>
 	<td>NIM </td>
@@ -50,5 +49,6 @@ if($data->num_rows <= 0) {
 	</tr>
 	
 		<td><input type="submit" value="Simpan"></td>
+		<td><a href="main.php"><button type="button">Batal</button></a></td>
 </table>
 </form>
